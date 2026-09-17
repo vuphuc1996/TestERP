@@ -1,0 +1,1 @@
+window.FumeniUI={loading:v=>document.getElementById("loading").classList.toggle("d-none",!v),esc:v=>{var d=document.createElement("div");d.textContent=v==null?"":v;return d.innerHTML},error:m=>Swal.fire({icon:"error",title:"Có lỗi",text:m}),success:m=>Swal.fire({icon:"success",title:"Thành công",text:m,timer:1400,showConfirmButton:false})};
