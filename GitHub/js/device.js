@@ -1,1 +1,0 @@
-window.FumeniDevice={detect:function(){var m=/Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent)||innerWidth<768;return{type:m?"mobile":innerWidth<1200?"tablet":"desktop"}},localRef:function(){var k="fumeni_device_ref",v=localStorage.getItem(k);if(!v){v=crypto.randomUUID?crypto.randomUUID():Date.now()+"-"+Math.random();localStorage.setItem(k,v)}return v}};
