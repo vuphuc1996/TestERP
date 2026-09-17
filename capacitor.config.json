@@ -1,0 +1,14 @@
+{
+  "appId": "com.fumeni.erp",
+  "appName": "Fumeni ERP",
+  "webDir": "www",
+  "server": {
+    "url": "https://vuphuc1996.github.io/testERP/",
+    "cleartext": true,
+    "allowNavigation": [
+      "script.google.com",
+      "*.googleusercontent.com",
+      "*.google.com"
+    ]
+  }
+}
