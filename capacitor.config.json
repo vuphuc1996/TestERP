@@ -1,14 +1,15 @@
 {
-  "appId": "com.fumeni.erp",
-  "appName": "Fumeni ERP",
-  "webDir": "www",
+  "appId": "com.nexa.workforce",
+  "appName": "NEXA Workforce",
+  "webDir": "../web",
   "server": {
-    "url": "https://vuphuc1996.github.io/testERP/",
-    "cleartext": true,
+    "androidScheme": "https",
+    "cleartext": false,
     "allowNavigation": [
       "script.google.com",
       "*.googleusercontent.com",
-      "*.google.com"
+      "*.google.com",
+      "*.github.io"
     ]
   }
 }

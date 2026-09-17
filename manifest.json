@@ -1,18 +1,9 @@
 {
-  "name": "Fumeni ERP",
-  "short_name": "Fumeni",
-  "description": "Fumeni ERP",
-  "start_url": "./",
-  "scope": "./",
-  "display": "standalone",
-  "orientation": "any",
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
-  "icons": [
-    {
-      "src": "./logo.png",
-      "type": "image/png",
-      "sizes": "180x180"
-    }
-  ]
+  "name":"NEXA Workforce Suite",
+  "short_name":"NEXA",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#f8f9fa",
+  "theme_color":"#0d6efd",
+  "icons":[{"src":"./logo.png","sizes":"180x180","type":"image/png"}]
 }

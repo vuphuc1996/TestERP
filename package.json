@@ -1,0 +1,6 @@
+{
+  "name":"nexa-workforce-mobile",
+  "private":true,
+  "scripts":{"sync":"npx cap sync","android":"npx cap open android","ios":"npx cap open ios"},
+  "dependencies":{"@capacitor/core":"latest","@capacitor/cli":"latest"}
+}
